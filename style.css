@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock{
+    font-size: 10rem;
+    color: white;
+}
+
+button{
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 2rem;
+    width: 144px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: rgb(49, 46, 46);
+    color: crimson;
+}
+
+@media screen and (max-width:540px){
+    .clock {
+        font-size: 7rem;
+        color: white;
+    }
+    button {
+        padding: 15px;
+        margin-left: 6px;
+    }
+    
+}
+@media screen and (max-width:414px){
+    .clock {
+        font-size: 6rem;
+        color: white;
+    }
+    button {
+        padding: 10px;
+        margin-left: 9px;
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .clock{
+        font-size: 4rem;
+    }
+    button{
+        width: 90px;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:280px){
+    .clock {
+        font-size: 4.5rem;
+        color: white;
+    }
+    button {
+        padding: 10px;
+        margin-left: 2px;
+        width: 85px;
+        font-size: 1.3rem;
+    }
+    
+}
